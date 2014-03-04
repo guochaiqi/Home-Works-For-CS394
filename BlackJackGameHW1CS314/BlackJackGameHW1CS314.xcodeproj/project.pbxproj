@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70DCCA218C5540A008653D9 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F70DCCA118C5540A008653D9 /* Card.m */; };
+		F70DCCA518C59041008653D9 /* deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F70DCCA418C59041008653D9 /* deck.m */; };
+		F7472AAA18C4FB2000DB2753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AA918C4FB2000DB2753 /* Foundation.framework */; };
+		F7472AAC18C4FB2000DB2753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AAB18C4FB2000DB2753 /* CoreGraphics.framework */; };
+		F7472AAE18C4FB2000DB2753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AAD18C4FB2000DB2753 /* UIKit.framework */; };
+		F7472AB418C4FB2000DB2753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7472AB218C4FB2000DB2753 /* InfoPlist.strings */; };
+		F7472AB618C4FB2000DB2753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7472AB518C4FB2000DB2753 /* main.m */; };
+		F7472ABA18C4FB2000DB2753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7472AB918C4FB2000DB2753 /* AppDelegate.m */; };
+		F7472ABD18C4FB2000DB2753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7472ABB18C4FB2000DB2753 /* Main.storyboard */; };
+		F7472AC018C4FB2000DB2753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7472ABF18C4FB2000DB2753 /* ViewController.m */; };
+		F7472AC218C4FB2000DB2753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7472AC118C4FB2000DB2753 /* Images.xcassets */; };
+		F7472AC918C4FB2000DB2753 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AC818C4FB2000DB2753 /* XCTest.framework */; };
+		F7472ACA18C4FB2000DB2753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AA918C4FB2000DB2753 /* Foundation.framework */; };
+		F7472ACB18C4FB2000DB2753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AAD18C4FB2000DB2753 /* UIKit.framework */; };
+		F7472AD318C4FB2000DB2753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7472AD118C4FB2000DB2753 /* InfoPlist.strings */; };
+		F7472AD518C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7472AD418C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7472ACC18C4FB2000DB2753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7472A9E18C4FB2000DB2753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7472AA518C4FB2000DB2753;
+			remoteInfo = BlackJackGameHW1CS314;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70DCCA018C5540A008653D9 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		F70DCCA118C5540A008653D9 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		F70DCCA318C59041008653D9 /* deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deck.h; sourceTree = "<group>"; };
+		F70DCCA418C59041008653D9 /* deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deck.m; sourceTree = "<group>"; };
+		F7472AA618C4FB2000DB2753 /* BlackJackGameHW1CS314.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJackGameHW1CS314.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7472AA918C4FB2000DB2753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7472AAB18C4FB2000DB2753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7472AAD18C4FB2000DB2753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7472AB118C4FB2000DB2753 /* BlackJackGameHW1CS314-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackJackGameHW1CS314-Info.plist"; sourceTree = "<group>"; };
+		F7472AB318C4FB2000DB2753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7472AB518C4FB2000DB2753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7472AB718C4FB2000DB2753 /* BlackJackGameHW1CS314-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackJackGameHW1CS314-Prefix.pch"; sourceTree = "<group>"; };
+		F7472AB818C4FB2000DB2753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7472AB918C4FB2000DB2753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7472ABC18C4FB2000DB2753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7472ABE18C4FB2000DB2753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7472ABF18C4FB2000DB2753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7472AC118C4FB2000DB2753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7472AC718C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackGameHW1CS314Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7472AC818C4FB2000DB2753 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7472AD018C4FB2000DB2753 /* BlackJackGameHW1CS314Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackJackGameHW1CS314Tests-Info.plist"; sourceTree = "<group>"; };
+		F7472AD218C4FB2000DB2753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7472AD418C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackJackGameHW1CS314Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7472AA318C4FB2000DB2753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7472AAC18C4FB2000DB2753 /* CoreGraphics.framework in Frameworks */,
+				F7472AAE18C4FB2000DB2753 /* UIKit.framework in Frameworks */,
+				F7472AAA18C4FB2000DB2753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7472AC418C4FB2000DB2753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7472AC918C4FB2000DB2753 /* XCTest.framework in Frameworks */,
+				F7472ACB18C4FB2000DB2753 /* UIKit.framework in Frameworks */,
+				F7472ACA18C4FB2000DB2753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7472A9D18C4FB2000DB2753 = {
+			isa = PBXGroup;
+			children = (
+				F7472AAF18C4FB2000DB2753 /* BlackJackGameHW1CS314 */,
+				F7472ACE18C4FB2000DB2753 /* BlackJackGameHW1CS314Tests */,
+				F7472AA818C4FB2000DB2753 /* Frameworks */,
+				F7472AA718C4FB2000DB2753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7472AA718C4FB2000DB2753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AA618C4FB2000DB2753 /* BlackJackGameHW1CS314.app */,
+				F7472AC718C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7472AA818C4FB2000DB2753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AA918C4FB2000DB2753 /* Foundation.framework */,
+				F7472AAB18C4FB2000DB2753 /* CoreGraphics.framework */,
+				F7472AAD18C4FB2000DB2753 /* UIKit.framework */,
+				F7472AC818C4FB2000DB2753 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7472AAF18C4FB2000DB2753 /* BlackJackGameHW1CS314 */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AB818C4FB2000DB2753 /* AppDelegate.h */,
+				F7472AB918C4FB2000DB2753 /* AppDelegate.m */,
+				F7472ABB18C4FB2000DB2753 /* Main.storyboard */,
+				F70DCCA018C5540A008653D9 /* Card.h */,
+				F70DCCA118C5540A008653D9 /* Card.m */,
+				F70DCCA318C59041008653D9 /* deck.h */,
+				F70DCCA418C59041008653D9 /* deck.m */,
+				F7472ABE18C4FB2000DB2753 /* ViewController.h */,
+				F7472ABF18C4FB2000DB2753 /* ViewController.m */,
+				F7472AC118C4FB2000DB2753 /* Images.xcassets */,
+				F7472AB018C4FB2000DB2753 /* Supporting Files */,
+			);
+			path = BlackJackGameHW1CS314;
+			sourceTree = "<group>";
+		};
+		F7472AB018C4FB2000DB2753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AB118C4FB2000DB2753 /* BlackJackGameHW1CS314-Info.plist */,
+				F7472AB218C4FB2000DB2753 /* InfoPlist.strings */,
+				F7472AB518C4FB2000DB2753 /* main.m */,
+				F7472AB718C4FB2000DB2753 /* BlackJackGameHW1CS314-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7472ACE18C4FB2000DB2753 /* BlackJackGameHW1CS314Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AD418C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m */,
+				F7472ACF18C4FB2000DB2753 /* Supporting Files */,
+			);
+			path = BlackJackGameHW1CS314Tests;
+			sourceTree = "<group>";
+		};
+		F7472ACF18C4FB2000DB2753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7472AD018C4FB2000DB2753 /* BlackJackGameHW1CS314Tests-Info.plist */,
+				F7472AD118C4FB2000DB2753 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7472AA518C4FB2000DB2753 /* BlackJackGameHW1CS314 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7472AD818C4FB2000DB2753 /* Build configuration list for PBXNativeTarget "BlackJackGameHW1CS314" */;
+			buildPhases = (
+				F7472AA218C4FB2000DB2753 /* Sources */,
+				F7472AA318C4FB2000DB2753 /* Frameworks */,
+				F7472AA418C4FB2000DB2753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackJackGameHW1CS314;
+			productName = BlackJackGameHW1CS314;
+			productReference = F7472AA618C4FB2000DB2753 /* BlackJackGameHW1CS314.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7472AC618C4FB2000DB2753 /* BlackJackGameHW1CS314Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7472ADB18C4FB2000DB2753 /* Build configuration list for PBXNativeTarget "BlackJackGameHW1CS314Tests" */;
+			buildPhases = (
+				F7472AC318C4FB2000DB2753 /* Sources */,
+				F7472AC418C4FB2000DB2753 /* Frameworks */,
+				F7472AC518C4FB2000DB2753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7472ACD18C4FB2000DB2753 /* PBXTargetDependency */,
+			);
+			name = BlackJackGameHW1CS314Tests;
+			productName = BlackJackGameHW1CS314Tests;
+			productReference = F7472AC718C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7472A9E18C4FB2000DB2753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jacky Guo";
+				TargetAttributes = {
+					F7472AC618C4FB2000DB2753 = {
+						TestTargetID = F7472AA518C4FB2000DB2753;
+					};
+				};
+			};
+			buildConfigurationList = F7472AA118C4FB2000DB2753 /* Build configuration list for PBXProject "BlackJackGameHW1CS314" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7472A9D18C4FB2000DB2753;
+			productRefGroup = F7472AA718C4FB2000DB2753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7472AA518C4FB2000DB2753 /* BlackJackGameHW1CS314 */,
+				F7472AC618C4FB2000DB2753 /* BlackJackGameHW1CS314Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7472AA418C4FB2000DB2753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7472AC218C4FB2000DB2753 /* Images.xcassets in Resources */,
+				F7472AB418C4FB2000DB2753 /* InfoPlist.strings in Resources */,
+				F7472ABD18C4FB2000DB2753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7472AC518C4FB2000DB2753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7472AD318C4FB2000DB2753 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7472AA218C4FB2000DB2753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70DCCA518C59041008653D9 /* deck.m in Sources */,
+				F7472AC018C4FB2000DB2753 /* ViewController.m in Sources */,
+				F7472ABA18C4FB2000DB2753 /* AppDelegate.m in Sources */,
+				F7472AB618C4FB2000DB2753 /* main.m in Sources */,
+				F70DCCA218C5540A008653D9 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7472AC318C4FB2000DB2753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7472AD518C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7472ACD18C4FB2000DB2753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7472AA518C4FB2000DB2753 /* BlackJackGameHW1CS314 */;
+			targetProxy = F7472ACC18C4FB2000DB2753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7472AB218C4FB2000DB2753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7472AB318C4FB2000DB2753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7472ABB18C4FB2000DB2753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7472ABC18C4FB2000DB2753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7472AD118C4FB2000DB2753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7472AD218C4FB2000DB2753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7472AD618C4FB2000DB2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7472AD718C4FB2000DB2753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7472AD918C4FB2000DB2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Prefix.pch";
+				INFOPLIST_FILE = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7472ADA18C4FB2000DB2753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Prefix.pch";
+				INFOPLIST_FILE = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7472ADC18C4FB2000DB2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlackJackGameHW1CS314.app/BlackJackGameHW1CS314";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlackJackGameHW1CS314Tests/BlackJackGameHW1CS314Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7472ADD18C4FB2000DB2753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlackJackGameHW1CS314.app/BlackJackGameHW1CS314";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackJackGameHW1CS314/BlackJackGameHW1CS314-Prefix.pch";
+				INFOPLIST_FILE = "BlackJackGameHW1CS314Tests/BlackJackGameHW1CS314Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7472AA118C4FB2000DB2753 /* Build configuration list for PBXProject "BlackJackGameHW1CS314" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7472AD618C4FB2000DB2753 /* Debug */,
+				F7472AD718C4FB2000DB2753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7472AD818C4FB2000DB2753 /* Build configuration list for PBXNativeTarget "BlackJackGameHW1CS314" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7472AD918C4FB2000DB2753 /* Debug */,
+				F7472ADA18C4FB2000DB2753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7472ADB18C4FB2000DB2753 /* Build configuration list for PBXNativeTarget "BlackJackGameHW1CS314Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7472ADC18C4FB2000DB2753 /* Debug */,
+				F7472ADD18C4FB2000DB2753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7472A9E18C4FB2000DB2753 /* Project object */;
+}
