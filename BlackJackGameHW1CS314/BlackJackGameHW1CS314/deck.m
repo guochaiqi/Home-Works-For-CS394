@@ -16,7 +16,7 @@
     {
         for(int value = 1; value < 14; value++)
         {
-            Card * card = [[Card alloc] initCard:value suit:suit];
+            Card * card = [[Card alloc] initCard:value suit:suit];//makes a deck by filling with all clubs  from ace to king then spades from ace to king diamonds......hearts....
             [cards addObject:card];
         }
     }
@@ -24,16 +24,17 @@
     return self;
 }
                            
--(void)shuffle {
+-(void)shuffle {//shuffle works by making a temporary array and taking cards form the original deck to the temp array. after the cards will be removed from the original deck. this will continue until the original deck is empty. after it is all done the origianl deck pointer will be pointing at the temp array
     NSMutableArray *array = [[NSMutableArray alloc]init];
     while([cards count] > 0){
         NSInteger newRandNum = arc4random() %[cards count];
         [array addObject:[cards objectAtIndex:newRandNum]];
         [cards removeObjectAtIndex:newRandNum];
     }
+    cards = array;
 }
 
--(Card* )draw{
+-(Card* )draw{//simply returns card the iterator is pointing to then increments iterator
     if(cardNumInArray > 52){
         cardNumInArray = 0;
     }

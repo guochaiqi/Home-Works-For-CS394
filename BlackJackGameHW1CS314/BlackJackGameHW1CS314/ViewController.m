@@ -9,10 +9,21 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *betLable;
+@property (weak, nonatomic) IBOutlet UIStepper *betincrementvalue;
 
 @end
 
 @implementation ViewController
+
+- (IBAction)valueChanged:(UIStepper *)sender {
+    NSInteger value = [sender value];
+    
+    [[self betLable] setText:[NSString stringWithFormat:@"%ld", (long)value]];
+}
+
+
+
 
 - (void)viewDidLoad
 {

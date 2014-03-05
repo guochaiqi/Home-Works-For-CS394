@@ -7,9 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
-
-
 //count ace as 1 or 11 calculations will vary based on the total score
 //count face cards as 11 to 13 but restrict actual calculation values to 10
 @interface Card : NSObject{

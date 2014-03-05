@@ -23,6 +23,7 @@
 		F7472ACB18C4FB2000DB2753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7472AAD18C4FB2000DB2753 /* UIKit.framework */; };
 		F7472AD318C4FB2000DB2753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7472AD118C4FB2000DB2753 /* InfoPlist.strings */; };
 		F7472AD518C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7472AD418C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m */; };
+		F7A3895C18C6A2E2000C4EEA /* player.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A3895B18C6A2E2000C4EEA /* player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F7472AD018C4FB2000DB2753 /* BlackJackGameHW1CS314Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackJackGameHW1CS314Tests-Info.plist"; sourceTree = "<group>"; };
 		F7472AD218C4FB2000DB2753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7472AD418C4FB2000DB2753 /* BlackJackGameHW1CS314Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackJackGameHW1CS314Tests.m; sourceTree = "<group>"; };
+		F7A3895A18C6A2E2000C4EEA /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		F7A3895B18C6A2E2000C4EEA /* player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				F7472AB818C4FB2000DB2753 /* AppDelegate.h */,
 				F7472AB918C4FB2000DB2753 /* AppDelegate.m */,
 				F7472ABB18C4FB2000DB2753 /* Main.storyboard */,
+				F7A3895A18C6A2E2000C4EEA /* player.h */,
+				F7A3895B18C6A2E2000C4EEA /* player.m */,
 				F70DCCA018C5540A008653D9 /* Card.h */,
 				F70DCCA118C5540A008653D9 /* Card.m */,
 				F70DCCA318C59041008653D9 /* deck.h */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A3895C18C6A2E2000C4EEA /* player.m in Sources */,
 				F70DCCA518C59041008653D9 /* deck.m in Sources */,
 				F7472AC018C4FB2000DB2753 /* ViewController.m in Sources */,
 				F7472ABA18C4FB2000DB2753 /* AppDelegate.m in Sources */,
