@@ -10,7 +10,7 @@
 
 @implementation Card
 
-@synthesize value,suit;
+@synthesize value,suit, fileName;
 
 - (id) initCard:(NSInteger)value1 suit:(NSInteger)suit1{
     self.value = value1;

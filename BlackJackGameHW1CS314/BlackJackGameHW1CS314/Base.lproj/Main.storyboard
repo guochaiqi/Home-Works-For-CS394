@@ -41,6 +41,9 @@
                                     <color key="titleColor" red="0.46753821958627251" green="1" blue="0.92977828567506171" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cpS-W5-X14"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEc-vj-rz1">
                                 <rect key="frame" x="226" y="311" width="41" height="30"/>
@@ -56,6 +59,9 @@
                                 <state key="normal" title="Deal">
                                     <color key="titleColor" red="0.46753821958627251" green="1" blue="0.92977828567506171" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="dealButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Usy-0n-RiS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCa-J0-fNj">
                                 <rect key="frame" x="139" y="387" width="42" height="21"/>
@@ -104,8 +110,10 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="bankValue" destination="SbF-gu-Fdl" id="PhT-ml-29h"/>
                         <outlet property="betLable" destination="uCa-J0-fNj" id="jlt-Rq-ib7"/>
                         <outlet property="betincrementvalue" destination="BOd-VO-cW1" id="sNL-Mw-EEV"/>
+                        <outlet property="standButton" destination="EEc-vj-rz1" id="ipQ-c4-NPF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

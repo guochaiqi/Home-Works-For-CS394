@@ -7,12 +7,13 @@
 //
 
 #import "player.h"
-
+#import "Card.h"
 @implementation player
 @synthesize hand, bank ;
 
 -(id) initPlayer:(NSInteger)bank1{
     self.bank = bank1;
+    self.hand = [[NSMutableArray alloc] init];
     return self;
 }
 -(void)getCard :(Card*)cardFromDeck{//meant for hits
@@ -23,6 +24,11 @@
     [hand removeAllObjects];
     [hand addObject:firstcardsFromDeck];
     [hand addObject:secondCardFromDeck];
+    
+    for(int x = 0; x< [hand count];x++){
+        Card* tempcard = [hand objectAtIndex:x];
+        NSLog(tempcard.fileName);
+    }
 }
 
 @end

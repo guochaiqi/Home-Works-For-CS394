@@ -11,6 +11,7 @@
 @implementation deck
 @synthesize cards, cardNumInArray;
 -(id) init{
+    
     cards = [[NSMutableArray alloc ] init];
     for(int suit = 1; suit <= 4; suit++)
     {
