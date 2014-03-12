@@ -11,11 +11,12 @@
 //count face cards as 11 to 13 but restrict actual calculation values to 10
 @interface Card : NSObject{
     NSInteger value;
-    NSInteger suit;// 1 = clubs 2 = spades 3 = diamonds 4 = hearts
+    char suit;// 1 = clubs 2 = spades 3 = diamonds 4 = hearts
     
 }
+@property NSString * fileName;
 @property NSInteger value;
-@property NSInteger suit;
+@property char suit;
 -(id) initCard: (NSInteger) value1 suit:(NSInteger) suit1;
 
 @end

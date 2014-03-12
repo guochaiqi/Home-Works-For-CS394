@@ -15,6 +15,6 @@
 @property NSInteger cardNumInArray;
 -(void) shuffle;
 -(Card*) draw;
-
+-(void) whatsInDeck;
 
 @end

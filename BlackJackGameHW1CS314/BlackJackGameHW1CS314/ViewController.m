@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "player.h"
+#import "Card.h"
+#import "deck.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *betLable;
@@ -29,6 +32,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    player * player1 = [[player alloc]initPlayer:2000];//makes a player with 2000 dollars in the bank
+    player * dealer = [[player alloc ] init];
+    deck * deck1 = [[deck alloc]init];
+    [deck1 whatsInDeck];
+    //[deck1 shuffle];
+    //[deck1 whatsInDeck];
 }
 
 - (void)didReceiveMemoryWarning

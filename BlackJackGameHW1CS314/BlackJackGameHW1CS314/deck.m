@@ -41,6 +41,16 @@
     cardNumInArray ++;
     return [cards objectAtIndex:cardNumInArray-1];
 }
+
+-(void) whatsInDeck{
+    for (int x = 0; x< [[self cards]count];x++ ) {
+        Card * tempcard = [[self cards] objectAtIndex:x];
+        NSInteger tempCardValue = tempcard.value;
+        NSInteger tempCardSuit = tempcard.suit;
+        NSLog([NSString stringWithFormat:@" value %i : suit %c", tempCardValue ,tempCardSuit]);
+        NSLog(tempcard.fileName);
+    }
+}
     
 
 @end
