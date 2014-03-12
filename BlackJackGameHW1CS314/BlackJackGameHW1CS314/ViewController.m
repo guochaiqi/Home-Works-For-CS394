@@ -49,7 +49,7 @@
 
 - (IBAction)hitButton:(id)sender {
     [[self thePlayer]getCard: self.theDeck.draw];
-    
+    [[self thePlayer]whatsInHand];
 }
 
 - (IBAction)dealButton:(id)sender {

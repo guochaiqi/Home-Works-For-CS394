@@ -19,7 +19,7 @@
 -(void)getCard:(Card*) cardFromDeck;
 
 -(void)newHand: (Card*)firstCardFromDeck card2:(Card*) secondCardFromDeck;
-
+-(void)whatsInHand;
 
 
 @end

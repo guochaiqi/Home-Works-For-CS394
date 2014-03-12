@@ -30,5 +30,11 @@
         NSLog(tempcard.fileName);
     }
 }
+-(void)whatsInHand{
+    for (int x=0; x<hand.count; x++) {
+        NSLog(((Card*)[hand objectAtIndex:x]).fileName);
+        
+    }
+}
 
 @end
